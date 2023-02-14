@@ -1,0 +1,24 @@
+.viewnotes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.cardSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(218, 218, 218);
+}
+.card{
+    width:30%;
+    border: 2px solid black;
+}
+@media screen and (max-width:800px) {
+    .card{
+        width: 90%;
+        margin:5px
+    }
+    
+}

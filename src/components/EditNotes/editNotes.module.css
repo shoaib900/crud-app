@@ -1,0 +1,42 @@
+.addnotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(177, 177, 177);
+}
+.addnotes form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 54, 54);
+    width: 100%;
+}
+.addnotes >form>label{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px 0;
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 90%;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.btnDiv button{
+    border-radius: 7px;
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+}
+
+.btnDiv > button:hover{
+    background-color: blue;
+    cursor: pointer;
+    color:white;
+}
